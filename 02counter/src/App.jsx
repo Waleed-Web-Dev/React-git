@@ -8,8 +8,14 @@ function App() {
   let [count, setCount] = useState(0)
 
   const addVal = () => {
-    if( count < 20)
-       setCount(count + 1)
+    // if( count < 20)
+    //    setCount(count + 1)
+
+    setCount((prevCounter) => prevCounter + 1)
+    setCount((prevCounter) => prevCounter + 1)
+    setCount((prevCounter) => prevCounter + 1)
+    setCount((prevCounter) => prevCounter + 1)
+    setCount((prevCounter) => prevCounter + 1)
   }
 
   const subVal = () => {
