@@ -8,3 +8,8 @@ To create component in react. In src file, if you are using vite create a .jsx f
 In App.jsx(or .js) you need to import the exported component and also use the component in return like <C_name />. A return keyword only return one thing so  U can use react fragments <> </> to return multiple things.
 
 One question is that how script is loaded in HTMl in create-react-app, answer is it is laoded by react-script you have installed, and in vite script is called directly in HTML .
+
+
+## React Router
+React Router is a 3rd party library. Its not the part of core react library.
+
