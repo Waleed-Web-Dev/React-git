@@ -12,4 +12,9 @@ One question is that how script is loaded in HTMl in create-react-app, answer is
 
 ## React Router
 React Router is a 3rd party library. Its not the part of core react library.
-
+Its an industry standard to make a component folder in src and make all components inside it like a folder for Header anohter for Footer. In this folder header.jsx etc.
+Link: 
+ It is used in place of a tag. a tag refreshes pages so we use Link
+ uses to
+NavLink: 
+Provides some additional features. 
